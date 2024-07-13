@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.SendInterest {
+    background-color: #E2EDE5;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.SendInterestAction{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    position: absolute;
+    left: 250px;
+    transform: translateY(20px);
+}
+
+
+
+.SendInterestTable{
+    position: absolute;
+    transform: translateY(250px);
+    left: 150px;
+}
+
+.SendInterestTable th,
+.SendInterestTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.SendInterestTable th {
+    background-color: #f2f2f2;
+}
+
+.SendInterestTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.SendInterestTable tr:hover {
+    background-color: #ddd;
+}
+
+.ManagerApprove {
+    background-color: #23C3EB;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+}

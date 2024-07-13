@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ActionInterest {
+    background-color: #E2EDE5;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.ActionInterestHead{
+    position: absolute;
+    transform: translateY(20px);
+    left: 150px;
+    font-size: 20px;
+}
+
+.ActionInterestTable{
+    position: absolute;
+    transform: translateY(250px);
+    left: 150px;
+}
+
+.ActionInterestTable th,
+.ActionInterestTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.ActionInterestTable th {
+    background-color: #f2f2f2;
+}
+
+.ActionInterestTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ActionInterestTable tr:hover {
+    background-color: #ddd;
+}
+
+.AcceptBtn {
+    background-color: #23C3EB;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.RejectBtn{
+    background-color: #23C3EB;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.ActionInterestChat{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    left: 450px;
+    transform: translateY(20px);
+}
