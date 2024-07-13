@@ -22,7 +22,7 @@ A step-by-step series of examples that tell you how to get a development environ
 Clone the project repository to your local machine:
 
 ```bash
-git clone <http:url>("Copy from github link which i have provided")
+git clone https://github.com/Nitin1692/Zentratech-Client.git
 
 2. Navigate to Project Folder
 cd projectfolder/
