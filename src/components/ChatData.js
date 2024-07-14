@@ -21,12 +21,12 @@ function ChatData() {
         <form onSubmit={handleLogin}>
           <div className="FormGroupchat">
             <label htmlFor="username" className="FormLabelchat">
-              Sender ID
+              Receiver ID
             </label>
             <input
               type="number"
               id="senderid"
-              placeholder="Enter SenderID"
+              placeholder="Enter ReceiverId"
               className="AuthSenderId"
               value={id}
               onChange={(e) => setID(e.target.value)}
